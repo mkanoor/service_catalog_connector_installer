@@ -11,6 +11,11 @@
   yum:
     name: "{{ connector_packages }}"
     state: installed
+- name: Ensure config directory exists
+  file: 
+    path: "{{ catalog_config_dir }}"
+    recurse: yes
+    state: directory
 - name: Write Catalog Worker config file
   template:
     dest: "{{ catalog_config_dir }}/catalog.toml"
