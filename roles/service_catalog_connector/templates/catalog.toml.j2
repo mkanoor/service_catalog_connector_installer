@@ -1,0 +1,13 @@
+[ANSIBLE_TOWER]
+token="{{tower_token}}"
+url="{{tower_url}}"
+verify_ssl="{{tower_validate_certs}}"
+name="{{tower_name}}"
+uuid="{{tower_uuid}}"
+
+[AUTH]
+client_cert="/etc/pki/consumer/cert.pem"
+client_key="/etc/pki/consumer/key.pem"
+
+[logger]
+debug="false"

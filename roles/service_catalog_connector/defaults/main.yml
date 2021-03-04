@@ -1,0 +1,11 @@
+---
+tower_url: "https://YourAnsibleServer"
+tower_token: "Your Tower Token"
+tower_uuid: "Your Tower UUID"
+tower_name: "{{ tower_url|urlsplit('hostname') }}"
+tower_validate_certs: "true"
+connector_packages:
+        - rhc
+        - rhc-catalog-worker
+system_cert_file: "/etc/pki/consumer/cert.pem"
+catalog_config_dir: "/etc/rhc/workers"
