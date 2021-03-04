@@ -6,7 +6,7 @@
 namespace: mkanoor
 
 # The name of the collection. Has the same character restrictions as 'namespace'
-name: service_catalog
+name: service_catalog_connector_installer
 
 # The version of the collection. Must be compatible with semantic versioning
 version: 1.0.0
@@ -17,13 +17,13 @@ readme: README.md
 # A list of the collection's content authors. Can be just the name or in the format 'Full Name <email> (url)
 # @nicks:irc/im.site#channel'
 authors:
-- your name <example@domain.com>
+- your name mkanoor@redhat.com
 
 
 ### OPTIONAL but strongly recommended
 
 # A short summary description of the collection
-description: your collection description
+description: This collection installs the connector which can be used to link the Ansible Tower to cloud.redhat.com
 
 # Either a single license or a list of licenses for content inside of a collection. Ansible Galaxy currently only
 # accepts L(SPDX,https://spdx.org/licenses/) licenses. This key is mutually exclusive with 'license_file'
@@ -45,13 +45,13 @@ tags: []
 dependencies: {}
 
 # The URL of the originating SCM repository
-repository: http://example.com/repository
+repository: https://github.com/mkanoor/service_catalog_connector_installer
 
 # The URL to any online docs
-documentation: http://docs.example.com
+documentation: https://github.com/mkanoor/service_catalog_connector_installer/issues
 
 # The URL to the homepage of the collection/project
-homepage: http://example.com
+homepage: https://github.com/mkanoor/service_catalog_connector_installer
 
 # The URL to the collection issue tracker
-issues: http://example.com/issue/tracker
+issues: https://github.com/mkanoor/service_catalog_connector_installer/issues
