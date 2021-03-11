@@ -10,4 +10,5 @@ client_cert="/etc/pki/consumer/cert.pem"
 client_key="/etc/pki/consumer/key.pem"
 
 [logger]
-debug="false"
+# valid levels are error, info, debug, warn
+level="{{log_level}}"

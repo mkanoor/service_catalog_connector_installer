@@ -9,3 +9,4 @@ connector_packages:
         - rhc-catalog-worker
 system_cert_file: "/etc/pki/consumer/cert.pem"
 catalog_config_dir: "/etc/rhc/workers"
+log_level: "error"
